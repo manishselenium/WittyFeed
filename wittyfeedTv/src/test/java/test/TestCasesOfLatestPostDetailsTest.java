@@ -16,7 +16,8 @@ public class TestCasesOfLatestPostDetailsTest {
 
 	WebDriver driver = new ChromeDriver();
 
-	String st = System.setProperty("webdriver.chrome.driver", "chromedriver");
+	//String st = System.setProperty("webdriver.chrome.driver", "chromedriver");
+		String st = System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 	Dashboard DashboardItem = new Dashboard();
 
