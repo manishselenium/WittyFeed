@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="68550" started-at="2018-11-14T15:43:43Z" finished-at="2018-11-14T15:44:51Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="68550" started-at="2018-11-14T15:43:43Z" finished-at="2018-11-14T15:44:51Z">
+      <class name="test.TestCasesOfLatestPostDetailsTest">
+        <test-method status="PASS" signature="CheckImageOnLatestPostDetailsPage()" name="CheckImageOnLatestPostDetailsPage" duration-ms="28" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckHeaderOnLatestPostDetailsPage()" name="CheckHeaderOnLatestPostDetailsPage" duration-ms="29" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckParagraphOnLatestPostDetailsPage()" name="CheckParagraphOnLatestPostDetailsPage" duration-ms="24" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+      </class>
+      <class name="test.TestCaseDashboardToVerifyImageAndContentTest">
+        <test-method status="PASS" signature="OpenBrowser()" name="OpenBrowser" is-config="true" duration-ms="8681" started-at="2018-11-14T15:43:43Z" finished-at="2018-11-14T15:43:52Z">
+        </test-method>
+        <test-method status="PASS" signature="OpenBrowser()" name="OpenBrowser" is-config="true" duration-ms="9998" started-at="2018-11-14T15:43:52Z" finished-at="2018-11-14T15:44:02Z">
+        </test-method>
+        <test-method status="PASS" signature="OpenBrowser()" name="OpenBrowser" is-config="true" duration-ms="12191" started-at="2018-11-14T15:44:02Z" finished-at="2018-11-14T15:44:14Z">
+        </test-method>
+        <test-method status="PASS" signature="OpenBrowser()" name="OpenBrowser" is-config="true" duration-ms="10738" started-at="2018-11-14T15:44:14Z" finished-at="2018-11-14T15:44:24Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostDashboard()" name="CheckFeaturedPostDashboard" duration-ms="386" started-at="2018-11-14T15:44:25Z" finished-at="2018-11-14T15:44:25Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostDashboard()" name="CheckSecondPostDashboard" duration-ms="52" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostDashboard()" name="CheckThirdPostDashboard" duration-ms="52" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+      </class>
+      <class name="test.TestCasesForFeaturedPostDetailsTest">
+        <test-method status="PASS" signature="CheckImageOnFeaturedPostDetailsPage()" name="CheckImageOnFeaturedPostDetailsPage" duration-ms="25958" started-at="2018-11-14T15:44:25Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckHeaderOnFeaturedPostDetailsPage()" name="CheckHeaderOnFeaturedPostDetailsPage" duration-ms="33" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckParagraphOnFeaturedPostDetailsPage()" name="CheckParagraphOnFeaturedPostDetailsPage" duration-ms="26" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+      </class>
+      <class name="test.TestCasesOfsecondaryPostDetailsTest">
+        <test-method status="PASS" signature="CheckImageOnSecondaryPostDetailsPage()" name="CheckImageOnSecondaryPostDetailsPage" duration-ms="32" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckHeaderOnSecondaryPostDetailsPage()" name="CheckHeaderOnSecondaryPostDetailsPage" duration-ms="29" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckParagraphOnSecondaryPostDetailsPage()" name="CheckParagraphOnSecondaryPostDetailsPage" duration-ms="22" started-at="2018-11-14T15:44:51Z" finished-at="2018-11-14T15:44:51Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

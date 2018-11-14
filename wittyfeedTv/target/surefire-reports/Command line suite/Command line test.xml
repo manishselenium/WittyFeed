@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Gate6-70" name="test.TestCaseDashboardToVerifyImageAndContentTest" tests="12" failures="0" timestamp="14 Nov 2018 10:14:51 GMT" time="68.55" errors="0">
+  <testcase name="CheckFeaturedPostDashboard" time="0.386" classname="test.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckImageOnFeaturedPostDetailsPage" time="25.958" classname="test.TestCasesForFeaturedPostDetailsTest"/>
+  <testcase name="CheckImageOnLatestPostDetailsPage" time="0.028" classname="test.TestCasesOfLatestPostDetailsTest"/>
+  <testcase name="CheckImageOnSecondaryPostDetailsPage" time="0.032" classname="test.TestCasesOfsecondaryPostDetailsTest"/>
+  <testcase name="CheckSecondPostDashboard" time="0.052" classname="test.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckHeaderOnFeaturedPostDetailsPage" time="0.033" classname="test.TestCasesForFeaturedPostDetailsTest"/>
+  <testcase name="CheckHeaderOnLatestPostDetailsPage" time="0.029" classname="test.TestCasesOfLatestPostDetailsTest"/>
+  <testcase name="CheckHeaderOnSecondaryPostDetailsPage" time="0.029" classname="test.TestCasesOfsecondaryPostDetailsTest"/>
+  <testcase name="CheckThirdPostDashboard" time="0.052" classname="test.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckParagraphOnFeaturedPostDetailsPage" time="0.026" classname="test.TestCasesForFeaturedPostDetailsTest"/>
+  <testcase name="CheckParagraphOnLatestPostDetailsPage" time="0.024" classname="test.TestCasesOfLatestPostDetailsTest"/>
+  <testcase name="CheckParagraphOnSecondaryPostDetailsPage" time="0.022" classname="test.TestCasesOfsecondaryPostDetailsTest"/>
+</testsuite>
