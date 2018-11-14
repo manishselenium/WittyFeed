@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import PagesOnWittyFeedTv.Dashboard;
 import UtilsOnFeed.ReadPropertiesFileWittyTv;
 
-public class TestCaseDashboardToVerifyImageAndContent {
+public class TestCaseDashboardToVerifyImageAndContentTest {
 
 	static Properties properties = null;
 

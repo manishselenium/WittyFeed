@@ -12,7 +12,7 @@ import PagesOnWittyFeedTv.Dashboard;
 import PagesOnWittyFeedTv.PostDetails;
 import UtilsOnFeed.ReadPropertiesFileWittyTv;
 
-public class TestCasesOfsecondaryPostDetails {
+public class TestCasesForFeaturedPostDetailsTest {
 
 	static Properties properties = null;
 
@@ -24,7 +24,7 @@ public class TestCasesOfsecondaryPostDetails {
 
 	PostDetails Details = new PostDetails();
 
-	@BeforeTest
+    @BeforeTest
 	public void OpenBrowser() throws IOException {
 
 		ReadPropertiesFileWittyTv readConfigFile = new ReadPropertiesFileWittyTv();
@@ -34,24 +34,24 @@ public class TestCasesOfsecondaryPostDetails {
 		driver.get(properties.getProperty("URL"));
 		driver.manage().window().maximize();
 
-		DashboardItem.ClickSecondPost(driver);
+		DashboardItem.ClickFeaturedPost(driver);
 
 	}
 
 	@Test(priority = 1)
-	public void CheckImageOnSecondaryPostDetailsPage() throws Exception {
+	public void CheckImageOnFeaturedPostDetailsPage() throws Exception {
 
 		Details.PostDetailsImageCheck(driver);
 	}
 
 	@Test(priority = 2)
-	public void CheckHeaderOnSecondaryPostDetailsPage() throws Exception {
+	public void CheckHeaderOnFeaturedPostDetailsPage() throws Exception {
 
 		Details.PostDetailsHeaderContentCheck(driver);
 	}
 
 	@Test(priority = 3)
-	public void CheckParagraphOnSecondaryPostDetailsPage() throws Exception {
+	public void CheckParagraphOnFeaturedPostDetailsPage() throws Exception {
 
 		Details.PostDetailsParagraphCheck(driver);
 	}

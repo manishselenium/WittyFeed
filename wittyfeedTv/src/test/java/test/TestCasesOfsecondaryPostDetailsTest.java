@@ -2,15 +2,17 @@ package test;
 
 import java.io.IOException;
 import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import PagesOnWittyFeedTv.Dashboard;
 import PagesOnWittyFeedTv.PostDetails;
 import UtilsOnFeed.ReadPropertiesFileWittyTv;
 
-public class TestCasesOfLatestPostDetails {
+public class TestCasesOfsecondaryPostDetailsTest {
 
 	static Properties properties = null;
 
@@ -32,26 +34,25 @@ public class TestCasesOfLatestPostDetails {
 		driver.get(properties.getProperty("URL"));
 		driver.manage().window().maximize();
 
-		DashboardItem.ClickThirdPost(driver);
+		DashboardItem.ClickSecondPost(driver);
 
 	}
 
 	@Test(priority = 1)
-	public void CheckImageOnLatestPostDetailsPage() throws Exception {
+	public void CheckImageOnSecondaryPostDetailsPage() throws Exception {
 
 		Details.PostDetailsImageCheck(driver);
 	}
 
 	@Test(priority = 2)
-	public void CheckHeaderOnLatestPostDetailsPage() throws Exception {
+	public void CheckHeaderOnSecondaryPostDetailsPage() throws Exception {
 
 		Details.PostDetailsHeaderContentCheck(driver);
 	}
 
 	@Test(priority = 3)
-	public void CheckParagraphOnLatestPostDetailsPage() throws Exception {
+	public void CheckParagraphOnSecondaryPostDetailsPage() throws Exception {
 
 		Details.PostDetailsParagraphCheck(driver);
 	}
-
 }
